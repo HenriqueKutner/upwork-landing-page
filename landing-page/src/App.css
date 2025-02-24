@@ -1,0 +1,94 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  max-width: 800px; /* Increased width to accommodate images */
+  width: 90%; /* Responsive width */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  position: relative; /* Needed for absolute positioning of the company header */
+}
+
+/* Company Header Styles */
+.company-header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and name */
+}
+
+.company-icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+}
+
+.company-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333; /* Adjust color as needed */
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between image and content */
+}
+
+.slide-image img {
+  max-width: 300px; /* Adjust image size as needed */
+  height: auto;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  flex: 1; /* Allow content to take remaining space */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
