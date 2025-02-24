@@ -1,4 +1,4 @@
-# How to Run a React App
+# How to Run
 
 ## Prerequisites
 Ensure you have the following installed on your system:
